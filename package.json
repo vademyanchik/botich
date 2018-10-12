@@ -8,19 +8,23 @@
   "license": "MIT",
   "dependencies": {
     "cherio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
     "firebase": "^5.5.3",
+    "moment": "^2.22.2",
     "node-telegram-bot-api": "^0.30.0",
     "nodemon": "^1.18.4",
-    "open-graph-scraper": "^3.5.1",
-    "request": "^2.88.0"
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-2": "^6.24.1"
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.mjs"
+    "start": "nodemon --exec babel-node index.js"
   },
   "engines": {
     "node": "8.11.3"
