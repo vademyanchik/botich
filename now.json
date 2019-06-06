@@ -2,6 +2,6 @@
   "version": 2,
   "name": "botich",
   "builds": [
-    { "src": "index.js", "use": "@now/node@latest" }
+    { "src": "*/index.js", "use": "@now/node-server" }
   ]
 }
