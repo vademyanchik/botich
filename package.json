@@ -27,6 +27,6 @@
     "start": "nodemon --exec babel-node index.js"
   },
   "engines": {
-    "node": "8.11.3"
+    "node": "10.15.3"
   }
 }
