@@ -10,7 +10,7 @@
     "cherio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "firebase": "^5.5.3",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "node-telegram-bot-api": "^0.30.0",
     "nodemon": "^1.18.4",
     "request-promise": "^4.2.2"
